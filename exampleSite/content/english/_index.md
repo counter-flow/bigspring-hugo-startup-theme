@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Apply and Review Yaml Conventions at Scale"
+  title : "Apply Yaml Conventions at Scale"
   image : "images/banner-art.svg"
   content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage conventions at scale. Counterflow is a GitHub bot to help you to apply changes and enforce conventions to yaml files in all your repositories from Slack"
   button:
