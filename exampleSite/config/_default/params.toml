@@ -1,6 +1,6 @@
 author = "Counterflow"
 contact_form_action = "#"
-description = "GitHub Large Scale Refactoring for Slack"
+description = "GitHub Large Scale Refactoring from Slack"
 logo = "images/logo_small_icon_only.png"
 logo_width = "200px"
 [navigation_button]
