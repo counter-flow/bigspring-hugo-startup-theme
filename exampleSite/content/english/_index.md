@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Yaml Large Scale Refactorings From Slack"
+  title : "Apply Yaml Configuration Changes and Conventions at Scale"
   image : "images/banner-art.svg"
-  content : "Because there is so much yaml files in the world, we need to update them at scale."
+  content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage conventions at scale. Counterflow is a GitHub bot to help you to apply changes and enforce conventions to yaml files in all your repositories from Slack"
   button:
     enable : true
     label : "Sign up for Beta"
@@ -12,37 +12,37 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Use Cases"
+  title : "Counterflow Benefits"
   feature_item:
     # feature item loop
-    - name : "Define CI/CD Pipeline Conventions"
+    - name : "Automatic Code Reviews for Configuration Files"
       icon : "ti-pulse"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Automatic code suggestions and comments in Pull Requests to share enforce your yaml conventions"
 
     # feature item loop
-    - name : "Define Infrastructure Conventions"
+    - name : "Apply Yaml Conventions at Scale"
       icon : "ti-package"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Counterflow sends Pull Requests with the required changes to all your repositories from a single Slack command"
 
     # feature item loop
-    - name : "24h Service"
+    - name : "Detect CounterFlow repositories"
       icon : "ti-alarm-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Receive notifications when a GitHub repository has not applied or has decided to violate a Yaml convention after a deadline"
 
     # feature item loop
-    - name : "Value For Money"
+    - name : "Centralize your Tooling Conventions"
       icon : "ti-credit-card"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Have a single place with the Yaml conventions that you want to reinforce in all your repositories."
 
     # feature item loop
-    - name : "Faster Response"
+    - name : "Test Yml Code Changes and Conventions"
       icon : "ti-headphone-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Validate how a new Yaml convention will be applied before sending Pull Requests"
 
     # feature item loop
-    - name : "Cloud Support"
+    - name : "Track Your Followers"
       icon : "ti-cloud-up"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Track how many pull requests have been merged for new conventions and which pull requests are violating them"
 
 
 
