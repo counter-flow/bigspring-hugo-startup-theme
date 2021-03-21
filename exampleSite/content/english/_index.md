@@ -16,18 +16,18 @@ feature:
   feature_item:
     # feature item loop
     - name : "Automatic Code Reviews for Configuration Files"
-      icon : "ti-pulse"
+      icon : "ti-eye"
       content : "Automatic code suggestions and comments in Pull Requests to share enforce your yaml conventions"
 
     # feature item loop
     - name : "Apply Yaml Conventions at Scale"
-      icon : "ti-package"
+      icon : "ti-github"
       content : "Counterflow sends Pull Requests with the required changes to all your repositories from a single Slack command"
 
     # feature item loop
     - name : "Detect CounterFlow repositories"
-      icon : "ti-alarm-clock"
-      content : "Receive notifications when a GitHub repository has not applied or has decided to violate a Yaml convention after a deadline"
+      icon : "ti-alert"
+      content : "Notice when a GitHub repository has started to violate a Yaml convention after a deadline"
 
     # feature item loop
     - name : "Centralize your Tooling Conventions"
@@ -41,7 +41,7 @@ feature:
 
     # feature item loop
     - name : "Track Your Followers"
-      icon : "ti-cloud-up"
+      icon : "ti-pulse"
       content : "Track how many pull requests have been merged for new conventions and which pull requests are violating them"
 
 
