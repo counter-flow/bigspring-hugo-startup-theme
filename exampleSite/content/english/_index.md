@@ -32,7 +32,7 @@ feature:
     # feature item loop
     - name : "Centralize your Tooling Conventions"
       icon : "ti-credit-card"
-      content : "Have a single place with the Yaml conventions that you want to reinforce in all your repositories."
+      content : "Have a single place with the list and the status of all your Yaml conventions."
 
     # feature item loop
     - name : "Test Yml Code Changes and Conventions"
