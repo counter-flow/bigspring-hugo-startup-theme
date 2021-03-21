@@ -2,7 +2,7 @@ author = "Counterflow"
 contact_form_action = "#"
 description = "GitHub Large Scale Refactoring from Slack"
 logo = "images/counterflow-green.png"
-logo_width = "200px"
+logo_width = "300px"
 [navigation_button]
 enable = true
 label = "Get Started"
