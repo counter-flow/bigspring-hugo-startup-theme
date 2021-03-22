@@ -6,7 +6,7 @@ banner:
   content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage updates at scale. Counterflow is a GitHub bot to help you to update and enforce syntax rules in yaml files in all your repositories from Slack"
   button:
     enable : true
-    label : "Request Access"
+    label : "Request Demo"
     link : "contact"
 
 ##################### Feature ##########################
@@ -22,7 +22,7 @@ feature:
     # feature item loop
     - name : "Test Yaml Syntax Updates"
       icon : "ti-headphone-alt"
-      content : "Preview how a new Yaml convention will be applied before sending a Pull Request"
+      content : "Preview and get feedback from the teams for a new Yaml syntax rule before requesting changes in all your repositories"
 
     # feature item loop
     - name : "Secure Yaml Updates"
@@ -30,7 +30,7 @@ feature:
       content : "Counterflow reviews your pull requests and checks specific Yaml properties and/or values"
 
     # feature item loop
-    - name : "Update your Stack Faster"
+    - name : "Accelerate your Stack Updates"
       icon : "ti-alert"
       content : "Rewrite Yaml files and synchronize teams with a clear deadline to start using the latest technologies"
 
@@ -51,7 +51,7 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "No more context switching. Complete integration with Slack and GitHub."
       images:
       - "images/service-1.png"
       - "images/service-2.png"
