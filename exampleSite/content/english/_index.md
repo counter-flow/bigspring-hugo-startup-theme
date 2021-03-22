@@ -1,12 +1,12 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Apply Yaml Conventions at Scale"
+  title : "Update and Check Yaml Files at Scale"
   image : "images/banner-art.svg"
-  content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage conventions at scale. Counterflow is a GitHub bot to help you to apply changes and enforce conventions to yaml files in all your repositories from Slack"
+  content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage updates at scale. Counterflow is a GitHub bot to help you to update and enforce syntax rules in yaml files in all your repositories from Slack"
   button:
     enable : true
-    label : "Sign up for Beta"
+    label : "Request Access"
     link : "contact"
 
 ##################### Feature ##########################
@@ -15,32 +15,32 @@ feature:
   title : "Counterflow Benefits"
   feature_item:
     # feature item loop
-    - name : "Automatic Code Reviews for Configuration Files"
-      icon : "ti-eye"
-      content : "Automatic code suggestions and comments in Pull Requests to share enforce your yaml conventions"
-
-    # feature item loop
-    - name : "Apply Yaml Conventions at Scale"
+    - name : "Update Yaml Files at Scale"
       icon : "ti-github"
       content : "Counterflow sends Pull Requests with the required changes to all your repositories from a single Slack command"
 
     # feature item loop
-    - name : "Detect CounterFlow repositories"
-      icon : "ti-alert"
-      content : "Notice when a GitHub repository has started to violate a Yaml convention after a deadline"
-
-    # feature item loop
-    - name : "Centralize your Tooling Conventions"
-      icon : "ti-credit-card"
-      content : "Have a single place with the list and the status of all your Yaml conventions."
-
-    # feature item loop
-    - name : "Test Yml Code Changes and Conventions"
+    - name : "Test Yaml Syntax Updates"
       icon : "ti-headphone-alt"
-      content : "Validate how a new Yaml convention will be applied before sending Pull Requests"
+      content : "Preview how a new Yaml convention will be applied before sending a Pull Request"
 
     # feature item loop
-    - name : "Track Your Followers"
+    - name : "Secure Yaml Updates"
+      icon : "ti-eye"
+      content : "Counterflow reviews your pull requests and checks specific Yaml properties and/or values"
+
+    # feature item loop
+    - name : "Update your Stack Faster"
+      icon : "ti-alert"
+      content : "Rewrite Yaml files and synchronize teams with a clear deadline to start using the latest technologies"
+
+    # feature item loop
+    - name : "Centralized Yaml Rules"
+      icon : "ti-credit-card"
+      content : "Manage in a single location the required syntax rules that your Yaml files need to follow."
+
+    # feature item loop
+    - name : "Check Your Followers"
       icon : "ti-pulse"
       content : "Track how many pull requests have been merged for new conventions and which pull requests are violating them"
 
