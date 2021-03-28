@@ -26,7 +26,7 @@ feature:
 
     # feature item loop
     - name : "Prevent Incompatible Configuration Changes"
-      icon : "ti-flag"
+      icon : "ti-hand-stop"
       content : "Counterflow reviews your pull requests to prevent incompatible changes with the applied Yaml configuration templates"
 
 ######################### Service #####################
