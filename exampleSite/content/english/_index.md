@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Developer Configuration Management at Scale"
+  title : "Developer Tooling Management at Scale"
   image : "images/banner-art.svg"
-  content : "GitHub repositories contain a lot of Yaml files for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices in multiple teams for large organizations. Counterflow is a GitHub bot to apply configuration templates in all your repositories"
+  content : "Developers use multiple tools with different purposes: GitHub, JIRA, Slack, Spring Boot, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices and measure their impact in large organizations. Counterflow is a service to define processes and measure its impact across all your development teams"
   button:
     enable : true
     label : "Request Demo"
@@ -15,19 +15,31 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-    - name : "Defaults for New Repositories"
-      icon : "ti-github"
-      content : "Automatic additions of configuration files after a new repository is created. Enable your CI and CD tools with your default pipeline configurations"
+    - name : "Team Onboardings"
+      icon : "ti-user"
+      content : "Your tooling defaults and services are automatically enabled for new contributors and teams. Connect Slack, GitHub, JIRA for new teams or contributors without effort"
+
+   - name : "Development Stack Defaults"
+     icon : "ti-settings"
+     content : "Create your defaults CI and CD pipelines for your stack and automatically enable them for new repositories"
 
     # feature item loop
     - name : "Up To Date Configurations"
       icon : "ti-reload"
-      content : "Automatic Pull Requests with the required changes to all your repositories whenever your configurations change"
+      content : "Automatic Pull Requests with the required configuration file changes to all your repositories whenever your best practices change"
 
     # feature item loop
     - name : "Prevent Incompatible Changes"
       icon : "ti-control-eye"
       content : "Automatic code reviews for Pull Requests to prevent incompatible changes with the applied configuration templates"
+
+    - name : "Measure Developer Efficiency"
+      icon : "ti-timer"
+      content : "Track how much time is saved in developer productivity for tooling changes"
+
+    - name : "Best Practices as Code"
+      icon : "ti-github"
+      content : "Best practices and processes are in code. Developers can participate and suggest changes through Pull Request"
 
 ######################### Service #####################
 service:
