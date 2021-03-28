@@ -16,17 +16,17 @@ feature:
   feature_item:
     # feature item loop
     - name : "Up To Date Configurations"
-      icon : "ti-github"
+      icon : "ti-check"
       content : "Counterflow sends Pull Requests with the required changes to all your repositories whenever your (Yaml) configuration templates change"
 
     # feature item loop
     - name : "Defaults for New Repositories"
-      icon : "ti-headphone-alt"
+      icon : "ti-github"
       content : "Counterflow adds the default yaml files for new repositories. Specially useful for CI and CD pipelines"
 
     # feature item loop
     - name : "Prevent Incompatible Configuration Changes"
-      icon : "ti-eye"
+      icon : "ti-flag"
       content : "Counterflow reviews your pull requests to prevent incompatible changes with the applied Yaml configuration templates"
 
 ######################### Service #####################
