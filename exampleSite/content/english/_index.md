@@ -39,7 +39,7 @@ feature:
 
     - name : "Best Practices as Code"
       icon : "ti-github"
-      content : "Best practices and processes are in code to collaborate through Pull Request"
+      content : "Best practices and processes are in code to collaborate through Pull Requests"
 
 ######################### Service #####################
 service:
