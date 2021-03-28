@@ -31,7 +31,7 @@ feature:
     # feature item loop
     - name : "Prevent Incompatible Changes"
       icon : "ti-eye"
-      content : "Automatic code reviews for Pull Requests to prevent incompatible changes with the applied configuration templates"
+      content : "Automatic code reviews for Pull Requests to prevent incompatible changes with your best practices"
 
     - name : "Measure Developer Efficiency"
       icon : "ti-timer"
