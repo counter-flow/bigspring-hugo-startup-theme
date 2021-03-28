@@ -15,9 +15,9 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-   - name : "Defaults for New Repositories"
-     icon : "ti-github"
-     content : "Automatic additions of configuration files after a new repository is created. Enable your CI and CD tools with your default pipeline configurations"
+    - name : "Defaults for New Repositories"
+      icon : "ti-github"
+      content : "Automatic additions of configuration files after a new repository is created. Enable your CI and CD tools with your default pipeline configurations"
 
     # feature item loop
     - name : "Up To Date Configurations"
