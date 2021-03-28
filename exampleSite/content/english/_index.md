@@ -3,7 +3,7 @@
 banner:
   title : "Developer Configuration Management at Scale"
   image : "images/banner-art.svg"
-  content : "GitHub repositories contain a lot of Yaml files for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices in multiple teams for large organizations. Counterflow is a GitHub bot to apply (Yaml) configuration templates in all your repositories"
+  content : "GitHub repositories contain a lot of Yaml files for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices in multiple teams for large organizations. Counterflow is a GitHub bot to apply configuration templates in all your repositories"
   button:
     enable : true
     label : "Request Demo"
@@ -15,19 +15,19 @@ feature:
   title : "Counterflow Features"
   feature_item:
     # feature item loop
-    - name : "Up To Date Configurations"
-      icon : "ti-reload"
-      content : "Counterflow sends Pull Requests with the required changes to all your repositories whenever your (Yaml) configuration templates change"
+   - name : "Defaults for New Repositories"
+     icon : "ti-github"
+     content : "Automatic additions of configuration files after a new repository is created. Enable your CI and CD tools with your default pipeline configurations"
 
     # feature item loop
-    - name : "Defaults for New Repositories"
-      icon : "ti-github"
-      content : "Counterflow adds the default yaml files for new repositories. Specially useful for CI and CD pipelines"
+    - name : "Up To Date Configurations"
+      icon : "ti-reload"
+      content : "Automatic Pull Requests with the required changes to all your repositories whenever your configurations change"
 
     # feature item loop
     - name : "Prevent Incompatible Configuration Changes"
-      icon : "ti-flag"
-      content : "Counterflow reviews your pull requests to prevent incompatible changes with the applied Yaml configuration templates"
+      icon : "ti-control-stop"
+      content : "Automatic code reviews for Pull Requests to prevent incompatible changes with the applied configuration templates"
 
 ######################### Service #####################
 service:
