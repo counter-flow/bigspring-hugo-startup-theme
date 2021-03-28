@@ -25,8 +25,8 @@ feature:
       content : "Automatic Pull Requests with the required changes to all your repositories whenever your configurations change"
 
     # feature item loop
-    - name : "Prevent Incompatible Configuration Changes"
-      icon : "ti-control-stop"
+    - name : "Prevent Incompatible Changes"
+      icon : "ti-control-eye"
       content : "Automatic code reviews for Pull Requests to prevent incompatible changes with the applied configuration templates"
 
 ######################### Service #####################
