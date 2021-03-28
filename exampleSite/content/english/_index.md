@@ -26,7 +26,7 @@ feature:
     # feature item loop
     - name : "Up To Date Configurations"
       icon : "ti-reload"
-      content : "Automatic Pull Requests with the required configuration file changes to all your repositories whenever your best practices change"
+      content : "Automatic Pull Requests with the required configuration file changes according your tooling configuration changes"
 
     # feature item loop
     - name : "Prevent Incompatible Changes"
