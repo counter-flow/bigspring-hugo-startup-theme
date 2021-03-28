@@ -30,7 +30,7 @@ feature:
 
     # feature item loop
     - name : "Prevent Incompatible Changes"
-      icon : "ti-control-eye"
+      icon : "ti-eye"
       content : "Automatic code reviews for Pull Requests to prevent incompatible changes with the applied configuration templates"
 
     - name : "Measure Developer Efficiency"
@@ -39,7 +39,7 @@ feature:
 
     - name : "Best Practices as Code"
       icon : "ti-github"
-      content : "Best practices and processes are in code. Developers can participate and suggest changes through Pull Request"
+      content : "Best practices and processes are in code. Participate and suggest changes through Pull Request"
 
 ######################### Service #####################
 service:
