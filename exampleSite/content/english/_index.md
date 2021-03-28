@@ -12,7 +12,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Counterflow Features"
+  title : "Killer Features"
   feature_item:
     # feature item loop
    - name : "Defaults for New Repositories"
