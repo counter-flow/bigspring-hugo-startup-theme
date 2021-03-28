@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Update and Check Yaml Files at Scale"
+  title : "Developer Configuration Management at Scale"
   image : "images/banner-art.svg"
-  content : "Yaml files are widely used by many tools for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to manage updates at scale. Counterflow is a GitHub bot to help you to update and enforce syntax rules in yaml files in all your repositories from Slack"
+  content : "GitHub repositories contain a lot of Yaml files for configuration purposes: GitHub Actions, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices in multiple teams for large organizations. Counterflow is a GitHub bot to apply (Yaml) configuration templates in all your repositories"
   button:
     enable : true
     label : "Request Demo"
@@ -12,39 +12,22 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Counterflow Benefits"
+  title : "Counterflow Features"
   feature_item:
     # feature item loop
-    - name : "Update Yaml Files at Scale"
+    - name : "Up To Date Configurations"
       icon : "ti-github"
-      content : "Counterflow sends Pull Requests with the required changes to all your repositories from a single Slack command"
+      content : "Counterflow sends Pull Requests with the required changes to all your repositories whenever your (Yaml) configuration templates change"
 
     # feature item loop
-    - name : "Test Yaml Syntax Updates"
+    - name : "Defaults for New Repositories"
       icon : "ti-headphone-alt"
-      content : "Preview and get feedback from the teams for a new Yaml syntax rule before requesting changes in all your repositories"
+      content : "Counterflow adds the default yaml files for new repositories. Specially useful for CI and CD pipelines"
 
     # feature item loop
-    - name : "Secure Yaml Updates"
+    - name : "Prevent Incompatible Configuration Changes"
       icon : "ti-eye"
-      content : "Counterflow reviews your pull requests and checks specific Yaml properties and/or values"
-
-    # feature item loop
-    - name : "Accelerate your Stack Updates"
-      icon : "ti-alert"
-      content : "Rewrite Yaml files and synchronize teams with a clear deadline to start using the latest technologies"
-
-    # feature item loop
-    - name : "Centralized Yaml Rules"
-      icon : "ti-credit-card"
-      content : "Manage in a single location the required syntax rules that your Yaml files need to follow."
-
-    # feature item loop
-    - name : "Check Your Followers"
-      icon : "ti-pulse"
-      content : "Track how many pull requests have been merged for new conventions and which pull requests are violating them"
-
-
+      content : "Counterflow reviews your pull requests to prevent incompatible changes with the applied Yaml configuration templates"
 
 ######################### Service #####################
 service:
