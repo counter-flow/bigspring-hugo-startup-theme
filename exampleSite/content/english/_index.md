@@ -21,12 +21,12 @@ feature:
 
     # feature item loop
     - name : "Defaults for New Repositories"
-      icon : "ti-check"
+      icon : "ti-github"
       content : "Counterflow adds the default yaml files for new repositories. Specially useful for CI and CD pipelines"
 
     # feature item loop
     - name : "Prevent Incompatible Configuration Changes"
-      icon : "ti-hand-stop"
+      icon : "ti-flag"
       content : "Counterflow reviews your pull requests to prevent incompatible changes with the applied Yaml configuration templates"
 
 ######################### Service #####################
