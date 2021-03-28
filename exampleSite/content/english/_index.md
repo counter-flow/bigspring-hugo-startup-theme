@@ -17,11 +17,11 @@ feature:
     # feature item loop
     - name : "Team Onboardings"
       icon : "ti-user"
-      content : "Your tooling defaults and services are automatically enabled for new contributors and teams. Connect Slack, GitHub, JIRA for new teams or contributors without effort"
+      content : "Enable your tools automatically for new contributors and teams with zero effort"
 
-    - name : "Development Stack Defaults"
+    - name : "Tooling Defaults"
       icon : "ti-settings"
-      content : "Create your defaults CI and CD pipelines for your stack and automatically enable them for new repositories"
+      content : "Create your default CI and CD pipelines for your stack and automatically enable them for new repositories"
 
     # feature item loop
     - name : "Up To Date Configurations"
