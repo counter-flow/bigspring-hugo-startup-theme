@@ -16,12 +16,12 @@ feature:
   feature_item:
     # feature item loop
     - name : "Up To Date Configurations"
-      icon : "ti-check"
+      icon : "ti-reload"
       content : "Counterflow sends Pull Requests with the required changes to all your repositories whenever your (Yaml) configuration templates change"
 
     # feature item loop
     - name : "Defaults for New Repositories"
-      icon : "ti-github"
+      icon : "ti-check"
       content : "Counterflow adds the default yaml files for new repositories. Specially useful for CI and CD pipelines"
 
     # feature item loop
