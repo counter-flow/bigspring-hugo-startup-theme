@@ -3,7 +3,7 @@
 banner:
   title : "Developer Tooling Management at Scale"
   image : "images/banner-art.svg"
-  content : "Developers use multiple tools with different purposes: GitHub, JIRA, Slack, Spring Boot, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, Google Cloud, Ansible, Docker Compose, Open Shift, etc.. It is very hard to implement best practices and measure their impact in large organizations. Counterflow is a service to define processes and measure its impact across all your development teams"
+  content : "Developers use a large number of tools with different purposes: GitHub, JIRA, Slack, Spring Boot, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, etc.. It is very hard to implement best practices and measure their impact in large organizations. Counterflow is a service to define processes and measure its impact across all your development teams"
   button:
     enable : true
     label : "Request Demo"
@@ -46,29 +46,37 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "No more context switching. Complete integration with Slack and GitHub."
+    - title : "Remove unnecessary sync meetings and Slack channels."
       images:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Teams are first citizens in Counterflow. Teams are connected
+      trough multiple communication channels: JIRA, Slack, GitHub, Mail, Meet...
+      It is very hard to be on sync or receive the information you want to consume.
+
+      Use Counterflow to make your work and communication visible in Slack and reduce the number of channels to read about other teams updates. Use Counterflow templates to automatically connect your tools to Slack in a meaningful way.
+
+      Start increasing your productivity by reducing the number of meetings".
       button:
         enable : true
         label : "Check it out"
         link : "#"
 
     # service item loop
-    - title : "It is a privately owned Information and cyber security company"
+    - title : " Make your work visible"
       images:
       - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Communicate your OKRs progress and your roadmap by adopting Counterflow JIRA templates.
+
+      "
       button:
         enable : true
         label : "Check it out"
         link : "#"
 
     # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
+    - title : "Make your processes real"
       images:
       - "images/service-2.png"
       content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
