@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Developer Tooling Management at Scale"
+  title : "Team Communications at Scale"
   image : "images/banner-art.svg"
-  content : "Developers use a large number of tools with different purposes: GitHub, JIRA, Slack, Spring Boot, Kubernetes, Travis, Spinnaker, AWS Cloud Formation, etc.. It is very hard to implement best practices and measure their impact in large organizations. Counterflow is a service to define processes and measure its impact across all your development teams"
+  content : "Agile teams know that they need to continuously adapt their strategy based on their learnings. However, their progress and decision-making is not usually visible. Counterflow helps teams to make their work transparent with easy-to-read and periodic digest reports"
   button:
     enable : true
     label : "Request Demo"
@@ -15,31 +15,18 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-    - name : "Team Onboardings"
-      icon : "ti-user"
-      content : "Enable your tools automatically for new contributors and teams with zero effort"
-
-    - name : "Tooling Defaults"
+    - name : "Remove Meetings"
       icon : "ti-settings"
-      content : "Create your default CI and CD pipelines for your stack and automatically enable them for new repositories"
+      content : "Counterflow track your JIRA updates and produces a periodic digest. Meetings are not longer required to communicate updates"
+
+    - name : "Everything as Code"
+      icon : "ti-user"
+      content : "Configure the status update for all your agile ceremonies in yaml."
 
     # feature item loop
-    - name : "Up To Date Configurations"
+    - name : "Promotes Collaboration"
       icon : "ti-reload"
-      content : "Automatic Pull Requests with the required configuration file changes according your tooling configuration changes"
-
-    # feature item loop
-    - name : "Prevent Incompatible Changes"
-      icon : "ti-eye"
-      content : "Automatic code reviews for Pull Requests to prevent incompatible changes with your best practices"
-
-    - name : "Measure Developer Efficiency"
-      icon : "ti-timer"
-      content : "Track how much time is saved in developer productivity for tooling changes"
-
-    - name : "Best Practices as Code"
-      icon : "ti-github"
-      content : "Best practices and processes are in code to collaborate through Pull Requests"
+      content : "Counterflow reports are sent via Slack. Add as many channels as needed"
 
 ######################### Service #####################
 service:
