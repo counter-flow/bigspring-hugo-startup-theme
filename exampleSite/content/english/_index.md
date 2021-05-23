@@ -3,7 +3,9 @@
 banner:
   title : "Team Communications at Scale"
   image : "images/banner-art.svg"
-  content : "Agile teams know that they need to continuously adapt their strategy based on their learnings. However, their progress and decision-making is not usually visible. Counterflow helps teams to make their work transparent with easy-to-read and periodic digest reports"
+  content : "No more silos. No more distractions. No more surprises for a lack of focus or alignment.
+ Counterflow support teams to make their work transparent so all those pesky sync meetings
+ go away by providing simple common processes as code"
   button:
     enable : true
     label : "Request Demo"
@@ -15,11 +17,11 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-    - name : "Remove Meetings"
+    - name : "Reduces Meetings"
       icon : "ti-settings"
       content : "Counterflow track your JIRA updates and produces a periodic digest. Meetings are not longer required to communicate updates"
 
-    - name : "Everything as Code"
+    - name : "Processes as Code"
       icon : "ti-user"
       content : "Configure the status update for all your agile ceremonies in yaml."
 
