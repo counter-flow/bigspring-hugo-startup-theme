@@ -17,9 +17,9 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-    - name : "No Sync Meetings"
+    - name : "Async communication"
       icon : "ti-alarm-clock"
-      content : "Produces a periodic, easy to read, digests based on JIRA for tracking updates."
+      content : "Produces a periodic, easy to read, digests for tracking updates."
 
     - name : "Processes as Code"
       icon : "ti-settings"
@@ -35,54 +35,44 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "Remove unnecessary sync meetings and Slack channels."
+    - title : "Designed for remote and high performant teams."
       images:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "Teams are first citizens in Counterflow. Teams are connected
-      trough multiple communication channels: JIRA, Slack, GitHub, Mail, Meet...
-      It is very hard to be on sync or receive the information you want to consume.
-
-      Use Counterflow to make your work and communication visible in Slack and reduce the number of channels to read about other teams updates. Use Counterflow templates to automatically connect your tools to Slack in a meaningful way.
-
-      Start increasing your productivity by reducing the number of meetings."
+      content : "Teams usually have several ceremonies for tracking updates and communicate changes.
+      However, time is the most precious resource. Using Counterflow, you take the maximum benefit
+      of your tooling (JIRA, GitHub & Slack) because you can remove sync meetings because
+      the status updates are automatically reported in a human-readable format."
       button:
         enable : true
         label : "Check it out"
         link : "#"
 
+    # service item loop
+    - title : "Make your processes explicit"
+      images:
+      - "images/service-2.png"
+      content : "Teams usually have several ceremonies for tracking updates and communicate changes.
+      However, there are always differences in how to run those ceremonies between companies and teams.
+      There is no tool to run them all and it is hard to justify a custom tooling. Using Counterflow,
+      teams can completely customize their reporting to replace or complement their ceremonies."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "#"
     # service item loop
     - title : " Make your work visible"
       images:
       - "images/service-1.png"
-      content : "Communicate your OKRs progress and your roadmap by adopting Counterflow JIRA templates.
-
-      "
+      content : "It is very hard to make teams work visible at scale. This introduces redundancies and
+      inefficiencies. Indded, most of the teams fail on having the big picture and the lose collaboration opportunities.
+      Counterflow connect teams via Slack status update reports based on JIRA."
       button:
         enable : true
         label : "Check it out"
         link : "#"
 
-    # service item loop
-    - title : "Make your processes real"
-      images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-
-    # service item loop
-    - title : "A company standing different from others"
-      images:
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
 
 ################### Screenshot ########################
 screenshot:
