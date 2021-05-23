@@ -19,7 +19,7 @@ feature:
     # feature item loop
     - name : "Reduces Meetings"
       icon : "ti-settings"
-      content : "Counterflow track your JIRA updates and produces a periodic digest. Meetings are not longer required to communicate updates"
+      content : "Counterflow produces a periodic, easy to read, digests based on JIRA for sync updates."
 
     - name : "Processes as Code"
       icon : "ti-user"
