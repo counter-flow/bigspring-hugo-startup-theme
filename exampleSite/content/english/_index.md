@@ -44,7 +44,7 @@ service:
 
       Use Counterflow to make your work and communication visible in Slack and reduce the number of channels to read about other teams updates. Use Counterflow templates to automatically connect your tools to Slack in a meaningful way.
 
-      Start increasing your productivity by reducing the number of meetings".
+      Start increasing your productivity by reducing the number of meetings."
       button:
         enable : true
         label : "Check it out"
