@@ -65,8 +65,8 @@ service:
     - title : " Make your work visible"
       images:
       - "images/service-1.png"
-      content : "It is very hard to make teams work visible at scale. This introduces redundancies and
-      inefficiencies. Indded, most of the teams fail on having the big picture and the lose collaboration opportunities.
+      content : "It is very hard to make teams work visible at scale. Indded, most of the
+      teams fail on having the big picture and the lose collaboration opportunities.
       Counterflow connect teams via Slack status update reports based on JIRA."
       button:
         enable : true
