@@ -17,18 +17,18 @@ feature:
   title : "Killer Features"
   feature_item:
     # feature item loop
-    - name : "Reduces Meetings"
-      icon : "ti-settings"
-      content : "Counterflow produces a periodic, easy to read, digests based on JIRA for sync updates."
+    - name : "No Sync Meetings"
+      icon : "ti-alarm-clock"
+      content : "Produces a periodic, easy to read, digests based on JIRA for tracking updates."
 
     - name : "Processes as Code"
-      icon : "ti-user"
+      icon : "ti-settings"
       content : "Configure the status update for all your agile ceremonies in yaml."
 
     # feature item loop
-    - name : "Promotes Collaboration"
-      icon : "ti-reload"
-      content : "Counterflow reports are sent via Slack. Add as many channels as needed"
+    - name : "Work Visibility"
+      icon : "ti-eye"
+      content : "Counterflow reports are sent via Slack. Add as many channels as needed."
 
 ######################### Service #####################
 service:
